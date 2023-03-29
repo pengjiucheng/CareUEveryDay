@@ -29,7 +29,7 @@ public class Application {
 
         // new 一个 女友
         GirlFriend girlFriend = new GirlFriend("安娜",
-                "湖北省", "武汉市", "1994-07-28", "2023-01-23", "ojDeq5uzV08MUngiN5-zxPrz1LVk");
+                "湖北省", "武汉市", "1994-07-28", "2023-01-23", "ojDeq5n75YSEsERkce1MuafklhSc","BsYlUntHd9BF0dJaiA1xUg9Yn47kH8y_14zVFypu61M");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend));
 
         // new 一个 男友 也可单独针对一个friend设置模板ID 以达到不同人不同消息
